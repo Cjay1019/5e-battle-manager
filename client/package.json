@@ -1,10 +1,10 @@
 {
-  "name": "your-app",
+  "name": "5e-battle-manager",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "express": "^4.17.1",
-    "firebase": "^6.5.0",
+    "firebase": "^6.6.0",
     "mdbreact": "./mdbreact-4.19.1.tgz",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
