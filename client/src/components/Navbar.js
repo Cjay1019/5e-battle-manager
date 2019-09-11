@@ -6,7 +6,7 @@ import {
   MDBNavItem,
   MDBContainer
 } from "mdbreact";
-import SignIn from "./SignIn";
+import SignIn from "./Modal";
 import ProfileDropdown from "./ProfileDropdown";
 import { connect } from "react-redux";
 
@@ -17,7 +17,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <MDBNavbar color="primary-color" dark expand="md">
+      <MDBNavbar color="primary-color-dark" dark expand="md">
         <MDBContainer>
           <MDBNavbarBrand>
             <strong className="white-text">Battle Manager</strong>

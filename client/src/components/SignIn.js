@@ -76,12 +76,14 @@ class SignIn extends Component {
         <MDBDropdownMenu>
           <MDBInput
             name="email"
+            value={this.state.email}
             onChange={this.handleInputChange}
             label="Your email"
             type="text"
           />
           <MDBInput
             name="password"
+            value={this.state.password}
             onChange={this.handleInputChange}
             label="Your password"
             type="password"
